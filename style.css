@@ -1,5 +1,59 @@
 /* Logo */
 .logo {
-    max-width: 300px;
-    max-height: auto;
+    margin: 0 auto;
+}
+
+/* Logo Image */
+.logo img {
+    width: 300px;
+}
+
+/* left-nav section*/
+.left-nav {
+
+}
+
+/* right-nav section */
+.right-nav {
+
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+/* Languages section */
+.languages {
+
+}
+
+/* Language section items */
+.language-item {
+
+}
+
+/* Menu below the logo */
+.mini-menu {
+
+}
+
+/* Items in the menu below the logo */
+.mini-menu-item {
+
+}
+
+/* Use this to test and see what's happening */
+.test {
+    border: 1px solid red;
+    height: 250px;
+}
+
+.test2 {
+    border: 1px solid green;
+    height: 100px;
+}
+
+.test3 {
+    border: 1px solid purple;
+    height: 50px;
 }
