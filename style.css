@@ -1,21 +1,31 @@
 /* Logo */
 .logo {
-    margin: 0 auto;
+    margin: 15px auto 0px auto;
 }
 
 /* Logo Image */
 .logo img {
-    width: 300px;
+    width: 350px;
+}
+
+.bottom-break {
+    border-bottom: 1px solid slategray;
 }
 
 /* left-nav section*/
 .left-nav {
+    font-size: 14px;
+    padding: 5px;
+    vertical-align: bottom;
+}
 
+.left-nav img {
+    height: 20px;
 }
 
 /* right-nav section */
-.right-nav {
-
+.right-nav img {
+    height: 28px;
 }
 
 .nav-item {
@@ -24,22 +34,59 @@
 
 /* Languages section */
 .languages {
-
+    height: 20px;
+    border: 1px solid slategray;
+    border-bottom: 1px solid white;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2px auto;
+    margin: 0px auto 0px auto;
 }
 
 /* Language section items */
 .language-item {
+    color: #000;
+    font-size: 10px;
+    padding: 4px 2px;
+    margin: 0px auto;
 
+}
+
+.language-item-bold {
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 2px;
+    margin: 0px auto;
 }
 
 /* Menu below the logo */
 .mini-menu {
-
+    margin: 0px auto 5px auto;
 }
 
 /* Items in the menu below the logo */
 .mini-menu-item {
+    font-size: 12px;
+}
 
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.small-divider {
+    width: 100%; 
+    height: 1px;
+    background-color: slategray;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 5px auto;
 }
 
 /* Use this to test and see what's happening */
