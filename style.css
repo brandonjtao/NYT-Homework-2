@@ -89,18 +89,42 @@
     margin: 5px auto;
 }
 
+.byline {
+    color: slategray;
+    font-size: 10px;
+}
+
+.article-text {
+    font-size: 10px;
+}
+
+.hero img {
+    width: 100%;
+
+}
+
+.mini-header{
+    color: slategray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vertical-divider {
+    border-right: 1px solid slategray;
+}
+
 /* Use this to test and see what's happening */
 .test {
     border: 1px solid red;
-    height: 250px;
+    min-height: 250px;
 }
 
 .test2 {
     border: 1px solid green;
-    height: 100px;
+    min-height: 100px;
 }
 
 .test3 {
     border: 1px solid purple;
-    height: 50px;
+    min-height: 50px;
 }
